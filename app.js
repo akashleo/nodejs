@@ -15,11 +15,14 @@ const hobbies = ['Sports', 'Cooking'];
 // }
 // console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 // console.log(hobbies);
+hobbies.push("fishing");
 const copiedArray = [...hobbies];
 console.log(copiedArray);
 
 const toArray = (...args) => {
   return args;
 };
+
+console.log(person.greet());
 
 console.log(toArray(1, 2, 3, 4));
